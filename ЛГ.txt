@@ -1,0 +1,30 @@
+﻿<TEI> #объявляем tei
+	<teiHeader> #информация об источнике
+		<fileDesc>
+			<titleStmt>
+				<title>Фетхали</title>
+			</titleStmt>
+			<respStmt>
+				<persName>Неизвестный Автор</persName>
+				<resp>Что делал с документов (создание TEI документа, выделение в тексте прямой речи/ персоналий/мест)</resp>
+			</respStmt>
+		</fileDesc>
+		<profileDesc> # задаем список персонажей
+			<particDesc>
+				<listPerson type="historical"> 
+					<person xml:id="01"> 
+						<persName>Фетхали</persName> # выделяем персонажа
+					</person>
+				</listPerson>
+			</particDesc>
+		</profileDesc>
+	</teiHeader>
+	<text> #работа с самим текстом
+		<speech>
+			<said type="direct" aloud="true"> — <speech_verb semantic="speech">Уговорит</speech_verb semantic="speech">, как ему <speech_verb semantic="question">не уговорить</speech_verb semantic="question">?</said>
+			<author_comment> — <speech_verb semantic="action">раздавалось</speech_verb semantic="action"> в толпе.</author_comment>
+			<said type="direct" aloud="true">— <persName>Фетхали</persName>, если <speech_verb semantic="action">прибеднится</speech_verb semantic="action">, так у нищего полбороды <speech_verb semantic="action">выканючит</speech_verb semantic="action">... Самого шайтана <speech_verb semantic="action">перехитрит</speech_verb semantic="action">!.. Змею на хвосте <speech_verb semantic="action">заставит</speech_verb semantic="action"> <speech_verb semantic="movement">плясать</speech_verb semantic="movement">! Преумнейшая бестия! Препочтенный плутяга! Тебя же <speech_verb semantic="action">обманет</speech_verb semantic="action">, с тебя ж за то придачи <speech_verb semantic="action">возьмет</speech_verb semantic="action">, да ты же ему и <speech_verb semantic="action">накланяешься</speech_verb semantic="action">. А как <speech_verb semantic="action">примется</speech_verb semantic="action"> <speech_verb semantic="speech">говорить</speech_verb semantic="speech">, господи, твоя воля, как он <speech_verb semantic="speech">говорит</speech_verb semantic="speech">!</said> 
+			</speech>
+	</text>
+</TEI>
+	
